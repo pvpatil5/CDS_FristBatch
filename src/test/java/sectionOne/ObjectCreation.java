@@ -16,7 +16,7 @@ public class ObjectCreation {
 		String name = "Mercedes";
 		double cc= 5000;		
 
-		System.out.println(name+"--"+tyres+"==="+cc);
+		//System.out.println(name+"--"+tyres+"==="+cc);
 
 		// how will u call non static memebrs of a class
 		//	1. Create object
@@ -29,13 +29,13 @@ public class ObjectCreation {
 		
 		name= "nissan";
 		cc=3000;
-		System.out.println(name+"--"+tyres+"==="+cc);
+		
 	
 		ref.name="Toyota";
 		ref.cc=8000;
 		System.out.println(ref.name+"--"+tyres+"==="+ref.cc);
 		
-		
+		System.out.println(name+"--"+tyres+"==="+cc);
 	}
 
 }
