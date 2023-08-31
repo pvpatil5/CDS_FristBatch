@@ -14,6 +14,7 @@ public class TestDemo {
 		
 		Demo d1 = new Demo();
 		
+		
 		String newname=new Demo().name;
 		int a=new Demo().a;
 		
